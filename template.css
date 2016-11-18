@@ -35,10 +35,12 @@ li {
 }
 
 li a {
+    font-family: Impact;
+    font-size:1.2em;
     display: block;
     color: black;
     text-align: center;
-    padding: 10px 12px;
+    padding: 12px 12px;
     text-decoration: none;
 }
 
