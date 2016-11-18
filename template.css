@@ -1,5 +1,5 @@
 body{
-    font-family: "Impact;
+    font-family: "Impact;"
     color: #AAFF00;
     background-color: #333;
     text-shadow: 1px 1px #333;
@@ -7,9 +7,10 @@ body{
 }
 
 h1 {
-    font-size: 2.3em;
+    font-family:"Impact";
+    font-size: 2.8em;
     text-align: center;
-    text-shadow: 1px 1px #333;
+    text-shadow: 1px 1px #808080;
 }
 td, th {
     border: 1px solid #dddddd;
@@ -45,3 +46,22 @@ li a {
 li a:hover {
     background-color: #111;
 }
+.centerTable { margin: 0px auto; }
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
