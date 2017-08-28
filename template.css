@@ -10,7 +10,7 @@ h1 {
     font-family:"Impact";
     font-size: 2.8em;
     text-align: center;
-    text-shadow: 1px 1px #808080;
+    text-shadow: 1px 1px #FFFFFFF;
 }
 td, th {
     border: 1px solid #dddddd;
@@ -27,7 +27,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #808080;
+    background-color: #ffff00;
 }
 
 li {
