@@ -1,6 +1,6 @@
 body{
     font-family: "Impact;"
-    background-color: #333;
+    background-color: #484848;
     text-shadow: 1px 1px #333;
     text-align: center;
 }
@@ -9,7 +9,7 @@ h1 {
     font-family:"Impact";
     font-size: 2.8em;
     text-align: center;
-    text-shadow: 1px 1px #FFFFFFF;
+    text-shadow: 1px 1px #FFFFFF;
 }
 td, th {
     border: 1px solid #dddddd;
@@ -18,7 +18,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: #808080;
+    background-color: #333;
     text-align: center;
 }
 ul {
@@ -27,11 +27,14 @@ ul {
     padding: 10px;
     overflow: hidden;
     background: linear-gradient(135deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
+    border-radius: 10px;
+
 }
 
 li {
     float: left;
     background:linear-gradient(135deg, rgba(216,224,222,1) 0%,rgba(174,191,188,1) 22%,rgba(153,175,171,1) 33%,rgba(142,166,162,1) 50%,rgba(130,157,152,1) 67%,rgba(78,92,90,1) 82%,rgba(14,14,14,1) 100%);
+    border-radius: 25px;
 }
 
 li a {
@@ -44,9 +47,10 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #FFFFFFF (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: #FFFFFF;
+    border-radius:25px;
 }
 .centerTable { margin: 0px auto; }
 #menu-outer {
